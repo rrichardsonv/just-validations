@@ -1,5 +1,5 @@
 import compileValidations from './compileValidations';
-import isRequired from './isRequired';
+import isRequiredValidation from './isRequiredValidation';
 import mapValidations from './mapValidations';
 import filterOutNull from './filterOutNull';
 import getValidationErrors from './getValidationErrors';
@@ -8,7 +8,7 @@ import patternToFunction from './patternToFunction';
 
 export default {
   compileValidations,
-  isRequired,
+  isRequiredValidation,
   mapValidations,
   filterOutNull,
   getValidationErrors,
