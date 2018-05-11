@@ -1,4 +1,4 @@
-module.exports = function(){
+export default function polyfills(){
   /*
     Object.assign
   */
@@ -31,4 +31,4 @@ module.exports = function(){
       configurable: true
     });
   }
-};
+}

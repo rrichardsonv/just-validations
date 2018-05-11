@@ -44,7 +44,7 @@ class AsyncValidator extends React.Component {
     this.setState({ isValidating: true, errors: [] });
 
     return utilities
-      .getAsyncValidationResults(value, name, validations)
+      .getAsyncValidationErrors(value, name, validations)
       .then(utilities.filterOutNull)
       .then((newValidationErrors) => {
         this.setState({
